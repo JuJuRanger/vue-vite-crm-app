@@ -1,5 +1,5 @@
 <template>
-  <RouterView />
+  <h1>Abour Page</h1>
 </template>
 
 <script>
