@@ -15,7 +15,7 @@ export default {
   name: 'FrontendLayout',
   components: {
     Nav,
-    Footbar
+    Foot
   }
 }
 </script>

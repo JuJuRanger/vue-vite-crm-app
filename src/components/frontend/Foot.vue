@@ -99,7 +99,7 @@
 
 <script>
 export default {
-  name: 'Footbar'
+  name: 'Foot'
 }
 </script>
 
