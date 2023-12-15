@@ -163,6 +163,7 @@ import { required, email, minLength, sameAs, helpers } from '@vuelidate/validato
 // Import AuthService
 import http from '@/services/AuthService'
 
+// สร้าง function ขึ้นมาเอง เพื่อไป validate
 export function validUsername(user) {
   let validUserPattern = new RegExp('^[a-zA-Z]*$')
   if (validUserPattern.test(user)) {
@@ -187,6 +188,7 @@ export default {
     }
   },
 
+  // มาจาก vuelidate
   validations() {
     return {
       fullname: {
